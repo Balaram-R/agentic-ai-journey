@@ -1,3 +1,7 @@
-print ("Hello from Balaram!")
-print("This is my first file in the agentic ai journey")
-print("Date:", "08-04-2026")
+# hello.py
+def greet(name):
+    return f"Hello {name}! Welcome to your Agentic AI Journey. 🚀"
+
+if __name__ == "__main__":
+    print(greet("Balaram"))
+    print("Week 1 completed - Environment + First Commit")
